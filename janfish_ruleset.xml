@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="XWSoulStandard">
+    <description>Janfish coding standard.</description>
+    <exclude-pattern>*/core/vendor/*</exclude-pattern>
+    <arg name="colors"/>
+    <arg name="extensions" value="php"/>
+    <arg name="encoding" value="utf-8"/>
+    <arg value="spn"/>
+</ruleset>

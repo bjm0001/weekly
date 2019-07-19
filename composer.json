@@ -1,0 +1,29 @@
+{
+  "name": "janfish/weekly.report",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "Robert",
+      "email": "robert@janfish.cn"
+    }
+  ],
+  "description": "weekly report generator",
+  "keywords": [
+    "weekly report",
+    "newspaper report"
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "./core"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
